@@ -1,5 +1,3 @@
-import * as flsFunctions from './modules/functions.js';
-
 function ready(fn) {
   if (
     document.attachEvent
@@ -11,7 +9,4 @@ function ready(fn) {
     document.addEventListener('DOMContentLoaded', fn);
   }
 }
-ready(() => {
-  flsFunctions.isWebp();
-  console.log('DOM ready');
-});
+ready(() => {});

@@ -8,14 +8,18 @@ block meta
 //-   link(rel='stylesheet', href='css/some.css')
 
 block header
-  p Лого
-  svg
+  header.header
+    img.header__logo(src='img/logo.svg', alt="P&B Stratwork. Логотип")
 
 block content
-  h1 Заголовок
+  main.
+  h1.page__head Добро пожаловать на корпоративный сайт компании P&B Stratwork.
+  p.page__text В текущий момент сайт находится в разработке.
+  p.page__text Будет открыт 01 апреля 2023 года.
+  p.page__email Email для связи:
+    a.page__email-link(href="mailto:info@pbsw.ru ") info@pbsw.ru
 
-//- block footer
-//-   p footer
+block footer
+  footer.footer
+    small.footer__copyright © 2023, P&B Stratwork
 
-//- block append page-bottom
-//-   script(src='js/some.js')
