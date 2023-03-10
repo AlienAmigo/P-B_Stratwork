@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: $main-color;
+
+  &__copyright {
+    width: $screen-lg;
+    padding: $gap-lg;
+    font-size: 0.75rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: calc($screen-lg - 1px)) {
+  .footer {
+    &__copyright {
+      width: $screen-sm;
+      padding: $gap-sm;
+    }
+  }
+}
+
+@media screen and (max-width: calc($screen-sm - 1px)) {
+  .footer {
+    &__copyright {
+      width: 100%;
+      padding: $gap-sm;
+      font-size: 0.6875rem;
+    }
+  }
+}

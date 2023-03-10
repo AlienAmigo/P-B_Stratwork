@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+  width: $screen-lg;
+  padding: $gap-lg;
+
+  &::before {
+    @include pseudo();
+    top: 0;
+    left: calc((#{$screen-lg} - 100vw) / 2);
+    width: 100vw;
+    height: 5px;
+    background-color: $main-color;
+  }
+
+  &__logo {
+    width: 151px;
+    height: 38px;
+  }
+}
+
+@media screen and (max-width: calc($screen-lg - 1px)) {
+  .header {
+    width: $screen-sm;
+    padding: $gap-sm;
+
+    &::before {
+      left: calc((#{$screen-sm} - 100vw) / 2);
+    }
+  }
+}
+
+@media screen and (max-width: calc($screen-sm - 1px)) {
+  .header {
+    width: 100%;
+    padding: $gap-xs;
+
+    &::before {
+      left: calc((100% - 100vw) / 2);
+    }
+  }
+}

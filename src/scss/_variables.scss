@@ -11,10 +11,14 @@ $text-color:          $white-color;
 $transparent-color:   rgba(255, 255, 255, 0);
 
 $font-family:         Roboto, Arial, 'Helvetica Neue', sans-serif;
-$font-size:           14px;
+$font-size:           16px;
 $line-height:         1.4;
 
 $screen-xs:           480px;
 $screen-sm:           768px;
 $screen-md:           992px;
 $screen-lg:           1440px;
+
+$gap-xs:              15px;
+$gap-sm:              15px;
+$gap-lg:              20px;
