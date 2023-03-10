@@ -1,6 +1,8 @@
-# Страница-заглушка для 
+# Страница-заглушка для P&B Stratwork
 
 ---
+
+репозиторий: https://github.com/AlienAmigo/P-B_Stratwork.git
 
 Обязательно добавьте поддержку [editorconfig](https://editorconfig.org/#download) в ваш редактор кода.
 
