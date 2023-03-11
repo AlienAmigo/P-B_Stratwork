@@ -1,7 +1,7 @@
 extends ../pug/layout.pug
 
 block meta
-  title Главная
+  title P&B Stratwork
   meta(name='description', content='')
 
 //- block append head
@@ -9,18 +9,19 @@ block meta
 
 block header
   header.header
-    img.header__logo(src='img/logo.svg', alt="P&B Stratwork. Логотип")
+    img.header__logo(src='img/logo.svg', alt='P&B Stratwork. Логотип')
 
 block content
   main.page__main
     h1.page__title Добро пожаловать #[br]на&nbsp;корпоративный сайт компании&nbsp;
-      span.page__title-company P#[span.page__title-company--highlight &]B Stratwork.
-    p.page__text В&nbsp;текущий момент сайт находится в&nbsp;разработке.
+      span.page__title-company P#[span.page__title-company--highlight &]B Stratwork
+    p.page__text.page__text--reconstruction В&nbsp;текущий момент сайт находится на&nbsp;реконструкции.
     p.page__text Будет открыт 01&nbsp;апреля 2023&nbsp;года.
     p.page__email Email для связи:
-      a.page__email-link(href="mailto:info@pbsw.ru") info@pbsw.ru
+      a.page__email-link(href='mailto:info@pbsw.ru') info@pbsw.ru
+    p.page__text.page__text--eng The site is currently under reconstruction.
+    p.page__text It will open on April&nbsp;01, 2023
 
 block footer
   footer.footer
-    small.footer__copyright © 2023, P&B Stratwork
-
+    small.footer__copyright © 2023. P&B Stratwork
