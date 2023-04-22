@@ -66,7 +66,7 @@ npm run ftp       # отправка проекта на ftp (настройки
 > - **copyAssets** — отключает копирование дополнительных файлов проекта
 > - **processJs** — отключает создание `/js/script.min.js` и отслеживание изменений в js-файлах
 > - **copyJsVendors** — отключает обработку дополнительных js-модулей и создание `/js/vendors.min.js`
->   при **`processJs`**` = false` и **`copyJsVendors`**` = false` папка `/js` не создается
+  при **`processJs`**` = false` и **`copyJsVendors`**` = false` папка `/js` не создается
 
 ### Fonts (Шрифты)
 
