@@ -9,19 +9,19 @@ block meta
 
 block header
   header.header
-    img.header__logo(src='img/logo.svg', alt='P&B Stratwork. Логотип')
+    img.header__logo(src='img/logo.png', alt='Социальные цифровые платформы. Логотип')
 
 block content
   main.page__main
     h1.page__title Добро пожаловать #[br]на&nbsp;корпоративный сайт компании&nbsp;
-      span.page__title-company P#[span.page__title-company--highlight &]B Stratwork
+      span.page__title-company #[span.page__title-company--highlight Социальные цифровые платформы]
     p.page__text.page__text--reconstruction В&nbsp;текущий момент сайт находится на&nbsp;реконструкции.
-    p.page__text Будет открыт 25&nbsp;июня 2023&nbsp;года.
+    p#text-date-ru.page__text Будет открыт #[span#date-container 15&nbsp;августа 2023&nbsp;года].
     p.page__email Email для связи:
       a.page__email-link(href='mailto:info@pbsw.ru') info@pbsw.ru
     p.page__text.page__text--reconstruction.page__text--eng The site is currently under reconstruction.
-    p.page__text It will open on June&nbsp;25, 2023
+    p#text-date-en.page__text It will open on #[span#date-container August&nbsp;15, 2023]
 
 block footer
   footer.footer
-    small.footer__copyright © 2023. P&B Stratwork
+    small.footer__copyright © #[span#year-container 2023]. Социальные цифровые платформы

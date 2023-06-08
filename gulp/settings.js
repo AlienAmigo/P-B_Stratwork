@@ -26,7 +26,7 @@ export const settings = {
 
   // js
   js: {
-    processJs: false,
+    processJs: true,
     copyJsVendors: false,
     addVendors: ['node_modules/svg4everybody/dist/svg4everybody.min.js']
   },
